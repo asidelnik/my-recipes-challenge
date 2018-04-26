@@ -39,7 +39,7 @@ var RecipeApp = function () {
         var ingredient = {
             name: ingName,
         };
-        //ingId ++;
+        //ingId ++; -- Add a function - get recipe by ID for the code below 
         for (var i = 0; i < recipes.length; i++) {
             if (recipeId == recipes[i].id) {
                 recipes[i].ingredients.push(ingredient);
